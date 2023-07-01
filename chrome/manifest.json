@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Custom Speed Dial",
+  "description": "Add the Custom Speed Dial to your daily life.",
+  "version": "1.0",
+  "permissions": [ "topSites", "tabs", "unlimitedStorage", "storage", "contextMenus", "alarms", "favicon", "notifications" ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "images/spoon_icon16.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "16": "images/spoon_icon16.png",
+    "32": "images/spoon_icon32.png",
+    "48": "images/spoon_icon48.png",
+    "128": "images/spoon_icon128.png"
+  }
+}
